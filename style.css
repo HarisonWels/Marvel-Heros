@@ -1,0 +1,142 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+#Marvel{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+/* Capitan America container */
+.America{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+background: rgb(34,44,224);
+background: linear-gradient(180deg, rgba(34,44,224,1) 3%,
+rgba(74,27,193,1) 24%, rgba(62,30,166,1) 50%,
+rgba(94,17,181,1) 75%,
+rgba(169,17,182,1) 95%);
+border-radius: 10px;
+}
+#Cap-americ{margin-top: -30px;
+margin-left: -25px;}
+
+/* Capitan America text */
+ .capitan{display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+/* Iron Man container*/
+#Iron-man{margin-top: -30px;}
+.Iron{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+border-radius: 10px;
+line-height: 2px;
+background: rgb(215,66,21);
+background: linear-gradient(180deg, rgba(215,66,21,1) 3%,
+rgba(213,13,64,1) 24%, rgba(166,30,39,1) 50%,
+rgba(181,17,17,1) 76%,
+rgba(182,19,17,1) 95%);}
+
+/* Iron man text */
+.man{display: flex;
+flex-direction: column;
+align-items: flex-end;
+line-height: 15px;}
+.text1{color: white;
+font-size: 19px;
+padding-top: 15px;
+font-weight: bold;}
+.text2{color: white;
+font-size: 15px;
+padding-top: 10px;}
+
+/* Black Widow container */
+.Black{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+border-radius: 10px;
+background: rgb(11,11,11);
+background: linear-gradient(90deg, rgba(11,11,11,1) 3%,
+rgba(31,4,45,1) 24%,
+rgba(72,6,105,1) 50%,
+rgba(84,11,135,1) 76%, rgba(103,5,85,1) 95%);}
+#Black-widow{margin-top: -20px;}
+
+/* Black Widow text */
+.Widow{display: flex;
+flex-direction: column;
+align-items: flex-end;
+line-height: 15px;}
+
+/* Spider man container */
+.Spider{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+border-radius: 10px;
+background: rgb(242,4,4);
+background: linear-gradient(180deg, rgba(242,4,4,1) 6%,
+rgba(207,3,3,1) 24%, rgba(164,4,4,1) 45%,
+rgba(110,3,3,1) 71%, rgba(0,0,0,1) 88%);}
+#Spider-man{margin-top: -30px;}
+
+/* Spider man text */
+.Spiderman{display: flex;
+flex-direction: column;
+align-items: flex-end;
+line-height: 15px;}
+
+/* Hulk conteiner */
+.Hulk{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+border-radius: 10px;
+background: rgb(57,204,7);
+background: linear-gradient(180deg, rgba(57,204,7,1) 6%,
+rgba(6,149,20,1) 24%, rgba(4,88,8,1) 45%,
+rgba(9,43,1,1) 62%, rgba(0,0,0,1) 91%);}
+#Bruce{margin-top: -30px;}
+
+/* Hulk text */
+.Banner{display: flex;
+flex-direction: column;
+align-items: flex-end;
+line-height: 15px;}
+
+/* Doctor Strange container */
+.Doctor{margin-top: 30px;
+display: flex;
+flex-direction: row;
+width: 330px;
+height: 200px;
+border-radius: 10px;
+background: rgb(230,100,1);
+background: linear-gradient(180deg, rgba(230,100,1,1) 6%,
+rgba(233,70,5,1) 24%, rgba(185,3,10,1) 45%,
+rgba(154,30,2,1) 69%, rgba(60,1,1,1) 91%);}
+#Strange{margin-top: -30px;}
+
+/* Doctor Srange text */
+.Steven{display: flex;
+flex-direction: column;
+align-items: flex-end;
+line-height: 15px;}
+
+/* Marvel heros conteiner 2 */
+#Marvel-hero{display: flex;
+flex-direction: row;
+}
+.My-heros{display: flex;
+flex-direction: column;
+padding-left: 5px;}
